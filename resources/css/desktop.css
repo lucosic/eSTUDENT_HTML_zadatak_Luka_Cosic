@@ -1,0 +1,17 @@
+/* Desktop (mostly 16:9) */
+@media only screen and (min-width: 1281px){
+    /* some CSS here */
+    body {
+        background: #ffffff;
+    }
+
+    .fix-info{
+        position: fixed;
+        width: 25%;
+        height: 40%;
+        top: 30%;
+        bottom: 30%;
+        right: 10%;
+        margin-bottom: 3rem;
+    }
+}

@@ -1,0 +1,49 @@
+/* Mobile phone */
+@media only screen and (max-width: 479px){
+    /* some CSS here */
+    body {
+        background: #bfbfbf;
+
+    }
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .main-image-container{
+        min-height: 400px;
+        grid-column-end: 1;
+        grid-row-end: 1;
+    }
+
+    p, li {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .topnav a {
+        font-size: 18px;
+    }
+/*
+
+.general-content{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.grid {
+    margin-top: 3rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 0;
+}
+
+.main-image-container{
+    grid-row-end: 1;
+    grid-column-end: 1;
+}
+
+ */
+}

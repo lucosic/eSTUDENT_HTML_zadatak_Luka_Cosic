@@ -1,0 +1,61 @@
+/* Desktop (mostly 4:3) */
+@media only screen and (min-width: 768px) and (max-width: 1280px){
+    /* some CSS here */
+    body {
+        background: #dfdfdf;
+
+    }
+
+    .fix-info{
+        position: fixed;
+        width: 25%;
+        height: 45%;
+        top: 30%;
+        bottom: 35%;
+        right: 10%;
+        margin-bottom: 3rem;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        width: 65%;
+    }
+
+    .main-image-container{
+        min-height: 400px;
+        grid-column-end: 1;
+        grid-row-end: span 2;
+    }
+
+    p, li {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .topnav a {
+        font-size: 22px;
+    }
+
+    /*
+
+    .general-content{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .grid {
+        margin-top: 3rem;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 0;
+    }
+
+    .main-image-container{
+        grid-row-end: 1;
+        grid-column-end: 1;
+    }
+
+     */
+}
